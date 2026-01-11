@@ -1,0 +1,192 @@
+﻿/* custom.css - Magical Realism Theme */
+
+:root {
+    --magical-primary: #9c27b0;
+    --magical-secondary: #e91e63;
+    --magical-accent: #00bcd4;
+    --magical-background: #f3e5f5;
+    --magical-text: #4a148c;
+    --magical-border: #d1c4e9;
+    --magical-shadow: rgba(156, 39, 176, 0.3);
+}
+
+.magical-container {
+    background: linear-gradient(135deg, #f3e5f5 0%, #e8f5e9 100%);
+    min-height: 100vh;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.magical-title {
+    color: var(--magical-text);
+    text-align: center;
+    margin: 30px 0;
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 4px var(--magical-shadow);
+    animation: title-glow 3s ease-in-out infinite alternate;
+}
+
+@keyframes title-glow {
+    from { text-shadow: 2px 2px 4px rgba(156, 39, 176, 0.3); }
+    to { text-shadow: 2px 2px 8px rgba(156, 39, 176, 0.6), 0 0 12px rgba(233, 30, 99, 0.4); }
+}
+
+.magical-text {
+    color: var(--magical-text);
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin: 20px 0;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    border-left: 4px solid var(--magical-primary);
+}
+
+.magical-btn {
+    background: linear-gradient(45deg, var(--magical-primary), var(--magical-secondary));
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 25px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin: 10px;
+    box-shadow: 0 4px 15px var(--magical-shadow);
+}
+
+.magical-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px var(--magical-shadow);
+    background: linear-gradient(45deg, var(--magical-secondary), var(--magical-primary));
+}
+
+.magical-card {
+    background: white;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    border: 2px solid var(--magical-border);
+    transition: transform 0.3s ease;
+}
+
+.magical-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px var(--magical-shadow);
+}
+
+.magical-element {
+    transition: all 0.3s ease;
+}
+
+.magical-element:hover {
+    filter: drop-shadow(0 0 10px currentColor);
+}
+
+/* Анимации */
+@keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+}
+
+@keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.7; }
+}
+
+.float-animation {
+    animation: float 3s ease-in-out infinite;
+}
+
+.pulse-animation {
+    animation: pulse 2s ease-in-out infinite;
+}
+
+/* Специальные классы для раскраски */
+.coloring-area {
+    border: 3px solid var(--magical-border);
+    border-radius: 20px;
+    padding: 20px;
+    background: white;
+    margin: 20px 0;
+}
+
+.colorable {
+    cursor: pointer;
+    transition: fill 0.3s ease;
+}
+
+.colorable:hover {
+    opacity: 0.9;
+    stroke: var(--magical-primary);
+    stroke-width: 2px;
+}
+
+/* Навигация */
+.nav-menu {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 30px 0;
+    flex-wrap: wrap;
+}
+
+.nav-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 20px;
+    background: white;
+    border-radius: 50px;
+    text-decoration: none;
+    color: var(--magical-text);
+    font-weight: 500;
+    border: 2px solid var(--magical-border);
+    transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+    background: var(--magical-primary);
+    color: white;
+    transform: scale(1.05);
+}
+
+/* Цветовая палитра */
+.color-palette {
+    display: flex;
+    gap: 10px;
+    margin: 20px 0;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.color-swatch {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 3px solid white;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+    transition: transform 0.2s ease;
+}
+
+.color-swatch:hover {
+    transform: scale(1.2);
+}
+
+/* Адаптивность */
+@media (max-width: 768px) {
+    .magical-title {
+        font-size: 2rem;
+    }
+    
+    .magical-container {
+        padding: 10px;
+    }
+    
+    .nav-menu {
+        flex-direction: column;
+        align-items: center;
+    }
+}

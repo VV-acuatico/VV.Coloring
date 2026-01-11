@@ -1,0 +1,44 @@
+﻿@inherits LayoutComponentBase
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Magical Coloring World - Interactive coloring experience" />
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/site.css" />
+    <link rel="stylesheet" href="css/custom.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <HeadContent />
+</head>
+<body class="magical-container">
+    <div class="container-fluid">
+        <main>
+            @Body
+        </main>
+    </div>
+
+    <script src="_framework/blazor.web.js"></script>
+    <script>
+        // Magical interactivity
+        document.addEventListener('DOMContentLoaded', function() {
+            // Add floating animation to magical elements
+            const elements = document.querySelectorAll('.magical-element');
+            elements.forEach((el, index) => {
+                el.style.animationDelay = (index * 0.2) + 's';
+                el.classList.add('float-animation');
+            });
+
+            // Color swatch interaction
+            const swatches = document.querySelectorAll('.color-swatch');
+            swatches.forEach(swatch => {
+                swatch.addEventListener('click', function() {
+                    swatches.forEach(s => s.style.borderColor = 'white');
+                    this.style.borderColor = '#9c27b0';
+                });
+            });
+        });
+    </script>
+</body>
+</html>

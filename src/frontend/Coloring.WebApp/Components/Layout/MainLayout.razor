@@ -1,5 +1,5 @@
 ﻿@inherits LayoutComponentBase
-
+@* 
 <div class="page">
     <div class="sidebar">
         <NavMenu />
@@ -14,7 +14,28 @@
             @Body
         </article>
     </main>
+</div> *@
+<head>
+    <!-- ... -->
+    <link rel="stylesheet" href="css/custom.css" /> <!-- Добавьте эту строку -->
+</head>
+
+<div class="page">
+    <main>
+        <article class="content px-4">
+            @Body
+        </article>
+    </main>
 </div>
+
+
+
+
+
+
+
+
+
 
 <div id="blazor-error-ui" data-nosnippet>
     An unhandled error has occurred.
