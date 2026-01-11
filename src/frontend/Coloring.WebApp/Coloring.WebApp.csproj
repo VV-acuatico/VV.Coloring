@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\modules\Content\Application\Coloring.Content.Application.csproj" />
+    <ProjectReference Include="..\..\modules\Canvas\Application\Coloring.Canvas.Application.csproj" />
+    <ProjectReference Include="..\..\modules\Identity\Application\Coloring.Identity.Application.csproj" />
+    <ProjectReference Include="..\..\modules\UserProgress\Application\Coloring.UserProgress.Application.csproj" />
+    <ProjectReference Include="..\..\modules\Payment\Application\Coloring.Payment.Application.csproj" />
+    <ProjectReference Include="..\..\modules\Media\Application\Coloring.Media.Application.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+</Project>

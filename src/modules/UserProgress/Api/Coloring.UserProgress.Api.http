@@ -1,0 +1,6 @@
+@Coloring.UserProgress.Api_HostAddress = http://localhost:5196
+
+GET {{Coloring.UserProgress.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

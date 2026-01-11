@@ -1,0 +1,26 @@
+### VisualStudio ###
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+[Tt]est[Rr]esult*/
+*.user
+*.suo
+*.vs/
+.vs/
+
+### Node ###
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+### Blazor/Web ###
+wwwroot/media/uploads/
+dist/
+_build/
+
+### .NET ###
+**/packages/
+*.nupkg
+/.localhistory/

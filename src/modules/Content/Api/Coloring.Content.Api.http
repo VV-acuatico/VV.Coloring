@@ -1,0 +1,6 @@
+@Coloring.Content.Api_HostAddress = http://localhost:5258
+
+GET {{Coloring.Content.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

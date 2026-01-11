@@ -1,0 +1,6 @@
+@Coloring.Canvas.Api_HostAddress = http://localhost:5136
+
+GET {{Coloring.Canvas.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

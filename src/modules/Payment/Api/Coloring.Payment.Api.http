@@ -1,0 +1,6 @@
+@Coloring.Payment.Api_HostAddress = http://localhost:5139
+
+GET {{Coloring.Payment.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
