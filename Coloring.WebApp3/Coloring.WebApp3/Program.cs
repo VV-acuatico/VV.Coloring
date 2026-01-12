@@ -1,5 +1,5 @@
-﻿using Coloring.WebApp2.Client.Pages;
-using Coloring.WebApp2.Components;
+﻿using Coloring.WebApp3.Client.Pages;
+using Coloring.WebApp3.Components;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -26,10 +26,11 @@ app.UsePathBase("/coloring/");
 app.UseRouting();
 
 app.UseAntiforgery();
+
 app.MapStaticAssets();
 app.MapRazorComponents<App>()
     .AddInteractiveServerRenderMode()
     .AddInteractiveWebAssemblyRenderMode()
-    .AddAdditionalAssemblies(typeof(Coloring.WebApp2.Client._Imports).Assembly);
+    .AddAdditionalAssemblies(typeof(Coloring.WebApp3.Client._Imports).Assembly);
 
 app.Run();
