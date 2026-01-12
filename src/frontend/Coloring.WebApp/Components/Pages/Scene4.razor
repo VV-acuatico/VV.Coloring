@@ -1,0 +1,92 @@
+﻿@page "/scene4"
+
+<PageTitle>Moonlit Glade - Magical Forest</PageTitle>
+
+<div class="magical-container">
+    <h1 class="magical-title">
+        <i class="bi bi-moon-stars"></i> Moonlit Glade
+    </h1>
+    
+    <div class="row">
+        <div class="col-md-8">
+            <div class="magical-card">
+                <h3><i class="bi bi-eye"></i> Scene Description</h3>
+                <p class="magical-text">A secret clearing where moonlight weaves patterns with fireflies.</p>
+                
+                <div class="coloring-area mt-4">
+                    <h4><i class="bi bi-palette"></i> Color This Scene</h4>
+                    <p>Click on elements to color them. Try different color combinations!</p>
+                    
+                    <!-- Простая SVG сцена для раскраски -->
+                    <svg width="100%" height="300" viewBox="0 0 800 300" class="magical-element">
+                        <rect width="800" height="300" fill="#f0f8ff" />
+                        <!-- Здесь будет SVG сцена -->
+                        <text x="400" y="150" text-anchor="middle" fill="#666" font-size="20">
+                            Interactive coloring area for Moonlit Glade
+                        </text>
+                    </svg>
+                    
+                    <div class="color-palette mt-3">
+                        <div class="color-swatch" style="background-color: #29916B;" title="Forest Green"></div>
+                        <div class="color-swatch" style="background-color: #FF9700;" title="Magic Purple"></div>
+                        <div class="color-swatch" style="background-color: #906700;" title="Sunset Orange"></div>
+                        <div class="color-swatch" style="background-color: #FDC862;" title="Sky Blue"></div>
+                        <div class="color-swatch" style="background-color: #916631;" title="Sun Yellow"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-4">
+            <div class="magical-card">
+                <h3><i class="bi bi-list-stars"></i> Magical Elements</h3>
+                <ul class="list-group list-group-flush">                    <li class='list-group-item magical-element'><i class='bi bi-star-fill text-warning'></i> Moonbeam pathways</li>
+                    <li class='list-group-item magical-element'><i class='bi bi-star-fill text-warning'></i> Dancing fireflies</li>
+                    <li class='list-group-item magical-element'><i class='bi bi-star-fill text-warning'></i> Stone circle altar</li>
+                    <li class='list-group-item magical-element'><i class='bi bi-star-fill text-warning'></i> Sleeping forest spirits</li>
+                </ul>
+                
+                <div class="mt-4">
+                    <h4><i class="bi bi-lightbulb"></i> Coloring Tips</h4>
+                    <ul>
+                        <li>Use bright colors for magical elements</li>
+                        <li>Try gradient effects for glowing areas</li>
+                        <li>Dark backgrounds make lights pop</li>
+                        <li>Experiment with unusual color combinations</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="magical-card mt-3">
+                <h4><i class="bi bi-compass"></i> Navigation</h4>
+                <div class="d-grid gap-2">
+                    <a href="/episode1" class="btn magical-btn">
+                        <i class="bi bi-arrow-left"></i> Back to Episode
+                    </a>                    <a href='/scene3' class='btn magical-btn'>
+                        <i class='bi bi-chevron-left'></i> Previous: Crystal Stream
+                    </a>
+                    <a href="/coloring4" class="btn magical-btn">
+                        <i class="bi bi-palette"></i> Full Coloring Page
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .list-group-item {
+        border: none;
+        padding: 10px 15px;
+        margin: 5px 0;
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.5);
+        transition: all 0.3s ease;
+    }
+    
+    .list-group-item:hover {
+        background: rgba(156, 39, 176, 0.1);
+        transform: translateX(5px);
+    }
+</style>
+
