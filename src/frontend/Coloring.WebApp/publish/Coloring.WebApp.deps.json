@@ -1,0 +1,205 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "Coloring.WebApp/1.0.0": {
+        "dependencies": {
+          "Coloring.Canvas.Application": "1.0.0",
+          "Coloring.Content.Application": "1.0.0",
+          "Coloring.Identity.Application": "1.0.0",
+          "Coloring.Media.Application": "1.0.0",
+          "Coloring.Payment.Application": "1.0.0",
+          "Coloring.UserProgress.Application": "1.0.0"
+        },
+        "runtime": {
+          "Coloring.WebApp.dll": {}
+        }
+      },
+      "Coloring.Canvas.Application/1.0.0": {
+        "dependencies": {
+          "Coloring.Canvas.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Coloring.Canvas.Application.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Coloring.Canvas.Domain/1.0.0": {
+        "runtime": {
+          "Coloring.Canvas.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Coloring.Content.Application/1.0.0": {
+        "dependencies": {
+          "Coloring.Content.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Coloring.Content.Application.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Coloring.Content.Domain/1.0.0": {
+        "runtime": {
+          "Coloring.Content.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Coloring.Identity.Application/1.0.0": {
+        "dependencies": {
+          "Coloring.Identity.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Coloring.Identity.Application.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Coloring.Identity.Domain/1.0.0": {
+        "runtime": {
+          "Coloring.Identity.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Coloring.Media.Application/1.0.0": {
+        "dependencies": {
+          "Coloring.Media.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Coloring.Media.Application.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Coloring.Media.Domain/1.0.0": {
+        "runtime": {
+          "Coloring.Media.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Coloring.Payment.Application/1.0.0": {
+        "dependencies": {
+          "Coloring.Payment.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Coloring.Payment.Application.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Coloring.Payment.Domain/1.0.0": {
+        "runtime": {
+          "Coloring.Payment.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Coloring.UserProgress.Application/1.0.0": {
+        "dependencies": {
+          "Coloring.UserProgress.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Coloring.UserProgress.Application.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Coloring.UserProgress.Domain/1.0.0": {
+        "runtime": {
+          "Coloring.UserProgress.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Coloring.WebApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Coloring.Canvas.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Coloring.Canvas.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Coloring.Content.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Coloring.Content.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Coloring.Identity.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Coloring.Identity.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Coloring.Media.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Coloring.Media.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Coloring.Payment.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Coloring.Payment.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Coloring.UserProgress.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Coloring.UserProgress.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

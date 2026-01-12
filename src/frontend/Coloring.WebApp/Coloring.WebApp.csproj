@@ -9,7 +9,11 @@
     <ProjectReference Include="..\..\modules\Media\Application\Coloring.Media.Application.csproj" />
   </ItemGroup>
 
-  <PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Shared\" />
+  </ItemGroup>
+
+   <PropertyGroup>
     <TargetFramework>net9.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
